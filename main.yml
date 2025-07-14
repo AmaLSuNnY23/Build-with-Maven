@@ -1,4 +1,4 @@
-name: Build java File
+name: Build java File Test
 on:
   push:
     branches: [main]
