@@ -13,6 +13,6 @@ jobs:
     - name: clean the package
       run: mvn clean install
     - name: List build artifacts
-      run: ls/target
+      run: ls target
     
       
