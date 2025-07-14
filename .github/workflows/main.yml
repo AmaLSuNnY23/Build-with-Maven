@@ -8,6 +8,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4.2.2
+    - name: maven validate
       run: mvn validate
     - name: clean the package
       run: mvn clean install
